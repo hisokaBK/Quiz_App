@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Sora:wght@600;700&display=swap");
+
+:root {
+  --page-bg: #dbe2de;
+  --phone-bg: #d8ec77;
+  --teal-900: #06585e;
+  --teal-800: #0a6972;
+  --ink: #093f47;
+  --cream: #f4f4ef;
+  --line: #b9cc67;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Outfit", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(32rem 16rem at 10% 0%, rgba(255, 255, 255, 0.35), transparent 70%),
+    linear-gradient(135deg, #cdd8d3, var(--page-bg) 50%, #cfdad6);
+}
